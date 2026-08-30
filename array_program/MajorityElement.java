@@ -6,11 +6,8 @@ public class MajorityElement {
 	public static void main(String[] args) {
 		int a[]= {3,3,5,7,5,3,3,3,3,3};
 		majority(a);
-//		Arrays.sort(a);
 		System.out.println(Arrays.toString(a));
-//		System.out.println(a[a.length/2]);
 		System.out.println(majority(a));
-		
 	}
 	public static int majority(int a[])
 	{
