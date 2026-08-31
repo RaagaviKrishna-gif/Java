@@ -1,4 +1,3 @@
-package array_program;
 
 import java.util.Arrays;
 
@@ -25,7 +24,6 @@ public class MajorityElement {
 			}
 		}
 		return majority_element;
-	}
-	
-
+	}	
 }
+// Majority Element is : 3
