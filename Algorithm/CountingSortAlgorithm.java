@@ -1,13 +1,12 @@
-package Algorithm;
 
 import java.util.Arrays;
 
 public class CountingSortAlgorithm {
 	public static void main(String[] args) {
 		int a[]= {2,3,8,7,9,0,3,5,6,1,7};
-		System.out.println(Arrays.toString(a));
+		System.out.println("Before Sorting : "+Arrays.toString(a));
 		countSort(a);
-		System.out.println(Arrays.toString(a));
+		System.out.println("After Sorting : "+Arrays.toString(a));
 	}
 	
 	public static int findLargest(int a[]) {
@@ -35,3 +34,12 @@ public class CountingSortAlgorithm {
 		}
 	}
 }
+
+
+/*
+o/p
+
+Before Sorting : [2, 3, 8, 7, 9, 0, 3, 5, 6, 1, 7]
+After Sorting : [0, 1, 2, 3, 3, 5, 6, 7, 7, 8, 9]
+
+*/
