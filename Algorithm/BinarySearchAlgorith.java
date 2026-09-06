@@ -1,4 +1,3 @@
-package Algorithm;
 
 import java.util.*;
 public class BinarySearchAlgorith
@@ -33,3 +32,10 @@ public class BinarySearchAlgorith
 		return false;
 	}
 }
+
+
+/*
+o/p
+Enter the Element : 50
+true
+*/
