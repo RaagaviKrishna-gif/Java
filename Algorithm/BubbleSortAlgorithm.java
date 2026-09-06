@@ -1,14 +1,13 @@
-package Algorithm;
 
 import java.util.Arrays;
 
 public class BubbleSortAlgorithm {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int a[]= {8,7,9,3,1};
 		
-		System.out.println(Arrays.toString(a));
+		System.out.println("Before Sorting : " +Arrays.toString(a));
 		int n=a.length;
 		
 		for(int i=0;i<n-1;i++)
@@ -23,9 +22,17 @@ public class BubbleSortAlgorithm {
 				}
 			}
 		}
-		System.out.println(Arrays.toString(a));
+		System.out.println("After Sorting : "+Arrays.toString(a));
 
 	}
-	
-
 }
+
+
+/*
+o/p
+
+Before Sorting : [8, 7, 9, 3, 1]
+After Sorting : [1, 3, 7, 8, 9]
+
+
+*/
